@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <style>
+      body {
+        background-color: gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+      }
+      .container {
+        background-color: skyblue;
+        padding: 20px;
+        width: 300px;
+        border: 3px solid white;
+        border-radius: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .list {
+        padding: 5px;
+      }
+      #todoInput {
+        width: 200px;
+        height: 25px;
+        border: transparent;
+      } #addBtn {
+        padding: 5px;
+        width: 50px;
+        background-color: orange;
+        border: transparent;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <input
+          type="text"
+          name=""
+          id="todoInput"
+          placeholder="Add a todo"
+          required
+        />
+        <button type="button" id="addBtn" title="click me to add">Add</button>
+        <ol
+          type="1"
+          id="todoList"
+          style="background-color: rgb(118, 167, 118)"
+        ></ol>
+      </form>
+    </div>
+
+    <!-- ---------------------------- -->
+    <script src="prac.js"></script>
+  </body>
+</html>

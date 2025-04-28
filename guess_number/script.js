@@ -7,7 +7,7 @@
   const startGameBtn = document.querySelector(".start-game");
 
   let randomNum = Math.round(Math.random() * 100);
-  const allGuessesArray = [];
+  let allGuessesArray = [];
 
   form.addEventListener("submit", (e) => {
     e.preventDefault();
@@ -37,5 +37,6 @@
     result.innerText = "";
     allGuesses.innerText = "";
     randomNum = Math.round(Math.random() * 100);
+    allGuessesArray = [];
   });
 })();
